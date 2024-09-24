@@ -139,10 +139,8 @@ footer{
       margin-right: 70px;
      }  
     
-    .home{
-      gap: 30px;
-        align-items: center;
-        justify-content: space-around;
+    .home a{
+        font-size: 15px;
        }
   
   }
@@ -167,31 +165,47 @@ footer{
     .home{
       gap: 30px;
         align-items: center;
-        justify-content: space-around;
        }
   
   }
   
-  @media (max-width: 725px){
+  @media (max-width: 501px){
     .home{
-      flex-wrap: wrap;
       gap: 10px;
       justify-content: center;
     }
     .home a {
-      width: 25%;
       text-align: center;
-      
+      font-size: 15px;
     }
 
     .livro img{
-        width: 190px;
+        width: 200px;
+        height: 240px;
+    }
+
+    .livro{
+      flex-direction: column;
+      align-items: center;
     }
   }
   
   @media (max-width: 589px){
     header{
-      height: 150px;
+      height: 50px;
+    }
+
+    .cabecario h1{
+      font-size: 23px;
+    }
+
+    .cabecario img{
+      width: 35px;
+      height: 35px;
+    }
+
+    .img img{
+      width: 400px;
     }
   }
   

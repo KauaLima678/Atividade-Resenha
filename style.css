@@ -100,6 +100,11 @@ footer{
     display: flex;
     align-items: center;
   }
+
+  .cabecario img{
+    width: 40px;
+    height: 40px;
+  }
   
   header h1{
     text-align: center;
@@ -108,12 +113,14 @@ footer{
     justify-content: center;
     position: relative;
     margin-right: 70px;
+    font-size: 30px;
    }  
   
   .home{
     gap: 30px;
       align-items: center;
       justify-content: space-around;
+      font-size: 18px;
      }
 
 }
@@ -145,19 +152,34 @@ footer{
 
 @media (max-width: 725px){
   .home{
-    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    font-size: 15px;
   }
   .home a {
     width: 25%;
     text-align: center;
-    
+  }
+
+  header h1{
+    font-size: 23px;
+  }
+
+  .cabecario img{
+    width: 35px;
+    height: 35px;
   }
 }
 
 @media (max-width: 589px){
   header{
-    height: 150px;
+    height: 50px;
+  }
+  .resumo p{
+    font-size: 17px;
+  }
+
+  .resumo img{
+    width: 400px;
   }
 }

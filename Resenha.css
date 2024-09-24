@@ -22,47 +22,6 @@
 .resenha p{
     width: 87%;
 }
-
-@media (max-width: 1410px){
-    header{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    header h1{
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      margin-right: 70px;
-     }  
-    
-    .home{
-      gap: 30px;
-        align-items: center;
-        justify-content: space-around;
-       }
-  
-  }
-  
-  
-  @media (max-width: 1410px){
-    header{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    header h1{
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      margin-right: 70px;
-     }  
     
     .home{
       gap: 30px;
@@ -78,14 +37,18 @@
         margin-top: 30px;
        }
   
-  }
   
   
-  @media (max-width: 950px){
+  
+  @media (max-width: 1410px){
     header{
       display: flex;
-      justify-content: center;
       align-items: center;
+    }
+  
+    .cabecario img{
+      width: 35px;
+      height: 35px;
     }
     
     header h1{
@@ -95,19 +58,21 @@
       justify-content: center;
       position: relative;
       margin-right: 70px;
+      font-size: 23px;
      }  
     
     .home{
       gap: 30px;
         align-items: center;
         justify-content: space-around;
+        font-size: 15px;
        }
   
   }
   
+  
   @media (max-width: 725px){
     .home{
-      flex-wrap: wrap;
       gap: 10px;
       justify-content: center;
     }
@@ -115,6 +80,18 @@
       width: 25%;
       text-align: center;
       
+    }
+
+    .resenha p{
+      font-size: 20px;
+    }
+
+    .resenha img{
+      width: 250px;
+    }
+
+    .cabecario h1{
+      font-size: 23px;
     }
   }
 

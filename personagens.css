@@ -79,6 +79,11 @@ header h1 {
     display: flex;
     align-items: center;
   }
+
+  .cabecario img{
+    width: 40px;
+    height: 40px;
+  }
   
   header h1{
     text-align: center;
@@ -87,15 +92,17 @@ header h1 {
     justify-content: center;
     position: relative;
     margin-right: 70px;
+    font-size: 30px;
    }  
   
   .home{
     gap: 30px;
       align-items: center;
       justify-content: space-around;
+      font-size: 18px;
      }
-
 }
+
 
 
 @media (max-width: 950px){
@@ -115,22 +122,51 @@ header h1 {
    }  
   
   .home{
-    gap: 30px;
+     gap: 30px;
       align-items: center;
-      justify-content: space-around;
+     }
+
+     .info{
+      font-size: 15px;
+     }
+
+     .personagem img{
+      width: 200px;
+      height: 200px;
+     }
+
+     .personagem{
+      flex-direction: column;
      }
 
 }
 
 @media (max-width: 725px){
   .home{
-    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
   }
   .home a {
     width: 25%;
     text-align: center;
+    font-size: 15px;
     
   }
+}
+
+@media (max-width: 501px){
+
+  .cabecario h1{
+    font-size: 23px;
+  }
+
+  header{
+    height: 50px;
+  }
+
+  .cabecario img{
+width: 35px;
+height: 35px;
+  }
+
 }
